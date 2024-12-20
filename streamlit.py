@@ -98,8 +98,7 @@ elif menu == "Datasets":
     
     # Bold caption using Markdown
     st.markdown("<h4 style='font-size: 20px; font-weight: bold;'>X_train dataset</h4>", unsafe_allow_html=True)
-    st.image("images/x_train_text_dataset.png", 
-        caption="Figure 1. X_train dataset", 
+    st.image("images/x_train_text_dataset.PNG", caption="Figure 1. X_train dataset", 
         use_container_width=True
     )
      # Add space between subsections
@@ -107,7 +106,7 @@ elif menu == "Datasets":
     st.write("") 
     st.markdown("<h4 style='font-size: 20px; font-weight: bold;'>Y_train dataset</h4>", unsafe_allow_html=True)
     st.image(
-        "images/y_train_text_dataset.png", 
+        "images/y_train_text_dataset.PNG", 
         caption="Figure 2. Y_train dataset", 
         use_container_width=True
     )     
@@ -122,7 +121,7 @@ elif menu == "Datasets":
     """)
     st.markdown("<h4 style='font-size: 20px; font-weight: bold;'>Image_train folder</h4>", unsafe_allow_html=True)
     st.image(
-        "images/image_train_data.png", 
+        "images/image_train_data.PNG", 
         caption="Figure 3. Image_train data", 
         use_container_width=True
     )
@@ -562,7 +561,7 @@ elif menu == "Models":
         
         # Images related to DistilBERT
         st.markdown("<h3 style='font-weight: bold;'>Confusion Matrix</h3>", unsafe_allow_html=True)
-        st.image("images/distilbert_cm_v03.png", caption="Figure 13. Text classification Confusion Matrix", use_container_width=True)
+        st.image("images/distilbert_cm_v03.PNG", caption="Figure 13. Text classification Confusion Matrix", use_container_width=True)
 
     
         st.subheader("Classification Statistics")
@@ -604,7 +603,7 @@ elif menu == "Models":
 
         # Images related to VGG16
         st.markdown("<h3 style='font-weight: bold;'>Confusion Matrix</h3>", unsafe_allow_html=True)
-        st.image("images/image_cm_3.png", caption="Figure 14. Image classification Confusion Matrix", use_container_width=True)
+        st.image("images/image_cm_3.PNG", caption="Figure 14. Image classification Confusion Matrix", use_container_width=True)
 
         st.subheader("Classification Statistics")
         st.markdown("""
@@ -640,7 +639,7 @@ elif menu == "Multimodal":
         st.markdown("""Multimodal fusion was implemented using late fusion, employing soft voting with class weights to combine predictions from different modalities 
                     and make the final decision. \n The structure and outline of the fusion model is given below:""")
         
-        st.image("images/Late_Fusion_flowchart.png", caption="Figure 15. Multimodal classification flow chart", use_container_width=True)
+        st.image("images/Late_Fusion_flowchart.PNG", caption="Figure 15. Multimodal classification flow chart", use_container_width=True)
         
     
     with tab2:
