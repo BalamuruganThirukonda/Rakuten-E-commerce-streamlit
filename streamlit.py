@@ -644,8 +644,8 @@ elif menu == "Multimodal":
     
     with tab2:
     
-        st.subheader("Refer the GitHud repository")
-        st.markdown(""" For multimodal fusion model (text and image classification model) demo please refer the github repository 
+        st.subheader("Refer the GitHub repository")
+        st.markdown(""" Due to the large model size, the multimodel fusion demo is not hosted here. For multimodal fusion model (text and image classification model) demo please refer the github repository 
                     (Link: https://github.com/BalamuruganThirukonda/Rakuten-e-commerce.git).\n The repository contains streamlit file under src 
                     directory and required file to run the demo.
                                         """)
